@@ -1,0 +1,144 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.main-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; 
+}
+
+.inputs-section {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap; /* allows stacking on small screens */
+}
+
+.hex-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.hex-label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.hex_input {
+    width: 120px;
+    height: 45px;
+    font-size: 16px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+
+.picker-section, 
+.preview-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.picker-label, 
+.preview-label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.color_input {
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}
+
+.container {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: transparent;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+}
+
+.color_code {
+    width: 100%;
+    height: 40%;
+    position: absolute;
+    bottom: 20px;
+    background-color: white;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 60px;
+    color: rgba(0,0,0,.5);
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 300px;
+        height: 300px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+    .hex_input {
+        width: 100px;
+        height: 40px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 500px) {
+    .main-wrapper {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .inputs-section {
+        flex-direction: column;
+        align-items: center;
+    }
+    .container {
+        width: 250px;
+        height: 250px;
+    }
+    .color_input {
+        width: 80px;
+        height: 40px;
+    }
+    .picker-label, 
+    .preview-label, 
+    .hex-label {
+        font-size: 16px;
+    }
+}
+

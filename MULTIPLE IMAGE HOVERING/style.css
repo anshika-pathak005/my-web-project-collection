@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: #111;
+}
+.main{
+    height: 100%;
+    width: 100%;
+}
+.items{
+    border-bottom: 0.2vw solid white;
+    height:25%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+h1{
+    font-size: 8vw;
+    font-weight: 790;
+    position: relative;
+    z-index: 10;
+}
+.items img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+    position: absolute;
+    opacity: 0;
+    transition: all ease 0.2s;
+}
