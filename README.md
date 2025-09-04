@@ -93,7 +93,7 @@ It uses a **QR code library** to render the code, making it scannable with any m
 This was a good project to learn about **third-party libraries and dynamic DOM updates**.
 
 **Screenshot**  
-![QR Code Generator](QR-code-generator/screenshot.png)
+<img width="1000" height="500" alt="image" src="https://github.com/user-attachments/assets/e96b2687-c138-4382-a566-abb2f254d76b" />
 
 ---
 
