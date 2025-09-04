@@ -103,7 +103,8 @@ Whenever the user tries to click it, the button **immediately changes its positi
 This way, it always runs away and can never be pressed — a fun practice in **event handling, positioning, and dynamic CSS changes**.
 
 **Screenshot**  
-![Question Button](question-btn/screenshot.png)
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/05c18a6b-d254-4ff5-9e43-7baa0b6bb201" />
+
 
 ---
 
