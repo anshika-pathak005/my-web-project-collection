@@ -13,7 +13,7 @@ It fetches quotes from a local dataset and shows them dynamically when the user 
 This project helped me practice working with **JSON data, DOM manipulation, and event handling**.
 
 **Screenshot**  
-![Quote Generator](quote-genrater/screenshot.png)
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/1b35fea0-923c-41a6-b60b-7e0ee146a851" />
 
 ---
 
@@ -53,7 +53,7 @@ It uses JavaScript’s **setInterval and clearInterval** methods to track time a
 This project helped me practice **timers and event handling**.
 
 **Screenshot**  
-![Stopwatch](stopWatch/screenshot.png)
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/700922ab-a5af-4f8f-a481-4d363330c42f" />
 
 ---
 
@@ -83,7 +83,7 @@ The user can also set the **strength level (Easy, Medium, Hard)** to control how
 This project improved my understanding of **string manipulation and randomness in JavaScript**.
 
 **Screenshot**  
-![Password Generator](password-generator/screenshot.png)
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/0f57e249-15bf-4e3e-b009-2033f45fa83a" />
 
 ---
 
@@ -93,7 +93,7 @@ It uses a **QR code library** to render the code, making it scannable with any m
 This was a good project to learn about **third-party libraries and dynamic DOM updates**.
 
 **Screenshot**  
-<img width="1000" height="500" alt="image" src="https://github.com/user-attachments/assets/e96b2687-c138-4382-a566-abb2f254d76b" />
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/e96b2687-c138-4382-a566-abb2f254d76b" />
 
 ---
 
