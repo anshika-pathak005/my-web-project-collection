@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-family: sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-weight: 100;
+    /* color: white; */
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(img/bg2.jpeg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginBox{
+    /* width: 400px; */
+    height: 400px;
+    width: clamp(250px, 80%, 400px);
+    border: 3px solid rgba(255,255,255,.4);
+    border-radius: 15px;
+    padding: 30px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    flex-direction: column;
+}
+.loginBox h1{
+    text-align: center;
+    margin: 10px;
+    font-size: 2rem;
+}
+.inputBox{
+    width: 100%;
+    height: 40px;
+    margin: 20px 0px 20px 0px;
+    display: flex;
+}
+.inputBox input{
+    width: 100%;
+    height: 100%;
+    padding: 0px 30px 0px 10px;
+    font-size: 15px;
+    border-radius: 30px;
+    background-color: transparent;
+    border: 1px solid rgba(255,255,255,.4);
+}
+.inputBox img{
+    height: 50%;
+    margin-left: -40px;
+    margin-top: 8px;
+}
+.remember_forget{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: azure; */
+    margin: 20px 0px 20px 0px;
+    padding: 10px;
+}
+.remember_forget input{
+    cursor: pointer;
+    width: 15px;
+}
+.forcheck{
+    margin-left: -55px;
+}
+.btn{
+    width: 100%;
+    height: 37px;
+    border: 1px solid rgba(255,255,255,.4);
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(149, 149, 149);
+}
+
+.register{
+    margin-top: 23px;
+    text-align: center;
+}
