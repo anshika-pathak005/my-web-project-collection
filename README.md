@@ -92,7 +92,7 @@ It uses JavaScript’s **setInterval and clearInterval** methods to track time a
 This project helped me practice **timers and event handling**.
 
 **Screenshot**  
-<img width="800" height="400" alt="image" src="https://github.com/userattachments/assets/700922ab-a5af-4f8f-a481-4d363330c42f" />
+<img src="./screenshots/stopwatch.jpg" width="800" height="400">
 
 ---
 
@@ -102,7 +102,7 @@ It fetches quotes from an **API** and shows them dynamically when the user click
 This project helped me practice working with **APIs, DOM manipulation, and event handling**.  
 
 **Screenshot**
-<img width="800" height="400" alt="image" src="https://github.com/userattachments/assets/1b35fea0-923c-41a6-b60b-7e0ee146a851" />
+<img src="./screenshots/quote.jpg" width="800" height="400" />
 
 ---
 
@@ -113,7 +113,7 @@ The user can also set the **strength level (Easy, Medium, Hard)** to control how
 This project improved my understanding of **string manipulation and randomness in JavaScript**.
 
 **Screenshot**  
-<img width="800" height="400" alt="image" src="https://github.com/userattachments/assets/0f57e249-15bf-4e3e-b009-2033f45fa83a" />
+<img src="./screenshots/password.jpg" width="800" height="400" />
 
 ---
 
@@ -123,7 +123,7 @@ It uses a **QR code library** to render the code, making it scannable with any m
 This was a good project to learn about **third-party libraries and dynamic DOM updates**.
 
 **Screenshot**  
-<img width="800" height="400" alt="image" src="https://github.com/userattachments/assets/e96b2687-c138-4382-a566-abb2f254d76b" />
+<img src="./screenshots/qr code.jpg" width="800" height="400" />
 
 ---
 
@@ -133,7 +133,7 @@ It focuses on creating a good **UI layout with HTML and CSS**, and can be extend
 This project helped me practice **form design, input handling, and user authentication basics**.
 
 **Screenshot**  
-<img width="800" height="400" alt="image" src="https://github.com/userattachments/assets/05c18a6b-d254-4ff5-9e43-7baa0b6bb201" />
+<img src="./screenshots/login.jpg" width="800" height="400" />
 
 ---
 
