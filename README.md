@@ -3,7 +3,7 @@
 This repository contains a collection of small projects I built while learning the basics of **HTML, CSS, and JavaScript**.  
 Each project focuses on a specific concept or feature of web development, and together they reflect my hands-on practice as a beginner.  
 
--
+---
 
 ## 📌 Projects
 
@@ -13,9 +13,9 @@ The cursor style changes dynamically as you move across the page, giving the sit
 This project helped me explore **CSS styling, mouse events, and user interface customization**.
 
 **Screenshot**  
-![Custom Cursor](./screenshots/custom-cursor.gif)  
+<img src="./screenshots/custom-cursor.gif" width="800" height="400" />
 
---
+---
 
 ### 2. ❓ Question Button
 A playful project with a button that can never be clicked.  
