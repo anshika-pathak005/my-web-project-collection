@@ -23,7 +23,7 @@ Whenever the user tries to click it, the button **immediately changes its positi
 This way, it always runs away and can never be pressed — a fun practice in **event handling, positioning, and dynamic CSS changes**.
 
 **Screenshot**  
-![Question Button](question-btn/screenshot.png)
+<img src="./screenshots/fun-question.gif" width="800" height="400" />
 
 ---
 
@@ -33,7 +33,7 @@ It uses an external **API call** to fetch live weather data and displays tempera
 This project gave me an introduction to **APIs, JSON responses, and asynchronous JavaScript (fetch)**.
 
 **Screenshot**  
-![Simple Weather App](simple-weather-app/screenshot.png)
+<img src="./screenshots/simple-weather-app.gif" width="800" height="400" />
 
 ---
 
@@ -43,7 +43,7 @@ It uses JavaScript to **switch images dynamically**, and CSS for styling and tra
 This project was helpful to understand **DOM manipulation and working with multiple images**.
 
 **Screenshot**  
-![Image Slider](image-slider/screenshot.png)
+<img src="./screenshots/img-slider.gif" width="800" height="400" />
 
 ---
 
@@ -52,7 +52,7 @@ A small app that changes the background color of the page when you click a butto
 It’s a simple way to practice **DOM updates, CSS manipulation, and JavaScript functions**.
 
 **Screenshot**  
-![Background Color Changer](bg-color-change/screenshot.png)
+<img src="./screenshots/color-changer.gif" width="800" height="400" />
 
 ---
 
@@ -63,7 +63,7 @@ A fun project that shows a random emoji.
 This way, the same project behaves differently depending on the device, which helped me practice **event handling for different user interactions**.
 
 **Screenshot**  
-![Random Emoji Generator](random-emoji-generator/screenshot.png)
+<img src="./screenshots/emoji.gif" width="800" height="400" />
 
 ---
 
@@ -73,7 +73,7 @@ This creates a **gallery-like effect**, making it easier to focus on the image b
 It was useful for learning **hover effects, CSS transitions, and image manipulation with JavaScript**.
 
 **Screenshot**  
-![Multiple Image Hovering](multiple-image-hovering/screenshot.png)
+<img src="./screenshots/mul-img-hovering.gif" width="800" height="400" />
 
 ---
 
@@ -82,8 +82,7 @@ A project that allows users to pick colors and see their effect instantly.
 It demonstrates how to work with **input elements, color values, and dynamic styling** in JavaScript.
 
 **Screenshot**  
-![Color Picker](colorPicker/screenshot.png)
-
+<img src="./screenshots/color-picker.gif" width="800" height="400" />
 
 ---
 
