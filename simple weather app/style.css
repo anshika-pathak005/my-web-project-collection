@@ -52,6 +52,8 @@ button[type="submit"]{
 }
 .desc_display{
     margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
 }
 .temp_display{
     font-size: 50px;
