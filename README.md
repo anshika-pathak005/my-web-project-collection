@@ -108,7 +108,8 @@ This project helped me practice **timers and event handling**.
 A small app that displays random quotes.  
 It fetches quotes from an **API** and shows them dynamically when the user clicks next button.  
 This project helped me practice working with **APIs, DOM manipulation, and event handling**.  
-####🔗 [Live Demo](https://glittery-biscotti-062546.netlify.app/))
+
+#### 🔗 [Live Demo](https://glittery-biscotti-062546.netlify.app/)
 
 **Screenshot**
 <img src="./screenshots/quote.jpg" width="800" height="400" />
@@ -121,6 +122,8 @@ It includes options like uppercase, lowercase, numbers, and special characters.
 The user can also set the **strength level (Easy, Medium, Hard)** to control how strong and complex the generated password will be.  
 This project improved my understanding of **string manipulation and randomness in JavaScript**.
 
+#### 🔗 [Live Demo](https://tourmaline-sunburst-2d7592.netlify.app/)
+
 **Screenshot**  
 <img src="./screenshots/password.jpg" width="800" height="400" />
 
@@ -130,7 +133,8 @@ This project improved my understanding of **string manipulation and randomness i
 An app that takes text or a link as input and instantly generates a QR code.  
 It uses a **QR code library** to render the code, making it scannable with any mobile device.  
 This was a good project to learn about **third-party libraries and dynamic DOM updates**.
-####🔗 [Live Demo](https://qr-code-geenerator007.netlify.app/)
+
+#### 🔗 [Live Demo](https://qr-code-geenerator007.netlify.app/)
 
 **Screenshot**  
 <img src="./screenshots/qr code.jpg" width="800" height="400" />
