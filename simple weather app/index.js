@@ -1,10 +1,11 @@
 const weatherForm = document.querySelector(".weatherForms")
 const cityInput = document.querySelector(".cityInput")
 const card = document.querySelector(".card")
-const apikey = process.env.WEATHER_API_KEY;
+
+// Backend URL (Render)
+const backendURL = "https://weather-backend-x40o.onrender.com/weather";
 
 // functions
-
 weatherForm.addEventListener("submit", async event => {
 
     event.preventDefault();
@@ -17,10 +18,9 @@ weatherForm.addEventListener("submit", async event => {
         try{
             const weatherData = await getWeatherData(city);
             displayWeatherInfo(weatherData);
-            console.log(weatherData)
         }
         catch(error){
-            console.error(message)
+            console.error(error)
             displayError(error)
         }
 
@@ -33,7 +33,7 @@ weatherForm.addEventListener("submit", async event => {
 
 async function getWeatherData(city){
 
-    const apiurl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apikey}`;
+    const apiurl = `${backendURL}?city=${city}`;
 
     const response = await fetch(apiurl);
     // console.log(response);
@@ -69,7 +69,8 @@ function displayWeatherInfo(data){
         cityDisplay.textContent = city;
     }
         
-    tempDisplay.textContent = `${(temp-273.15).toFixed(1)}°C`;
+    tempDisplay.textContent = `${temp}°C`;
+    // tempDisplay.textContent = `${(temp-273.15).toFixed(1)}°C`;
     humidityDisplay.textContent = `Humidity: ${humidity}%`;
     descDisplay.textContent = description;
     weatherEmoji.textContent = getWeatherEmoji(id);
