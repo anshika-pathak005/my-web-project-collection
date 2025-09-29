@@ -31,6 +31,7 @@ This way, it always runs away and can never be pressed — a fun practice in **e
 A weather checking app where the user can enter a Location and get current weather details.  
 It uses an external **API call** to fetch live weather data and displays temperature and conditions on the screen.  
 This project gave me an introduction to **APIs, JSON responses, and asynchronous JavaScript (fetch)**.
+🔗 [Live Demo - ](https://weatherapp-4ozw.onrender.com/)
 
 **Screenshot**  
 <img src="./screenshots/simple-weather-app.gif" width="800" height="400" />
@@ -50,6 +51,7 @@ This project was helpful to understand **DOM manipulation and working with multi
 ### 5. 🎨 Background Color Changer
 A small app that changes the background color of the page when you click a button.  
 It’s a simple way to practice **DOM updates, CSS manipulation, and JavaScript functions**.
+🔗 [Live Demo - ](https://adorable-kelpie-6998c6.netlify.app/)
 
 **Screenshot**  
 <img src="./screenshots/color-changer.gif" width="800" height="400" />
@@ -61,6 +63,7 @@ A fun project that shows a random emoji.
 - On **mobile/phone**, a new emoji is generated when you **tap/click the generate button**.  
 - On **laptop/desktop**, a new emoji is generated when you **hover over the emoji**.  
 This way, the same project behaves differently depending on the device, which helped me practice **event handling for different user interactions**.
+🔗 [Live Demo - ](https://adorable-kelpie-6998c6.netlify.app/)
 
 **Screenshot**  
 <img src="./screenshots/emoji.gif" width="800" height="400" />
@@ -90,6 +93,7 @@ It demonstrates how to work with **input elements, color values, and dynamic sty
 A digital stopwatch with **start, pause, and reset** functionality.  
 It uses JavaScript’s **setInterval and clearInterval** methods to track time and update the display.  
 This project helped me practice **timers and event handling**.
+🔗 [Live Demo - ](https://joyful-kheer-efef56.netlify.app/)
 
 **Screenshot**  
 <img src="./screenshots/stopwatch.jpg" width="800" height="400">
@@ -100,6 +104,7 @@ This project helped me practice **timers and event handling**.
 A small app that displays random quotes.  
 It fetches quotes from an **API** and shows them dynamically when the user clicks next button.  
 This project helped me practice working with **APIs, DOM manipulation, and event handling**.  
+🔗 [Live Demo - ](https://glittery-biscotti-062546.netlify.app/))
 
 **Screenshot**
 <img src="./screenshots/quote.jpg" width="800" height="400" />
@@ -121,6 +126,7 @@ This project improved my understanding of **string manipulation and randomness i
 An app that takes text or a link as input and instantly generates a QR code.  
 It uses a **QR code library** to render the code, making it scannable with any mobile device.  
 This was a good project to learn about **third-party libraries and dynamic DOM updates**.
+🔗 [Live Demo - ](https://qr-code-geenerator007.netlify.app/)
 
 **Screenshot**  
 <img src="./screenshots/qr code.jpg" width="800" height="400" />
